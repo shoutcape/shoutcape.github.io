@@ -16,7 +16,7 @@ Here are some ideas to get you started:
 -->
 
 
-<!DOCTYPE html>
+
 <html>
 <head>
     <title>First web page ever</title>
