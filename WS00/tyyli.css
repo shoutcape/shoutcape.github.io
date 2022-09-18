@@ -1,1 +1,8 @@
-body{background-color: aliceblue;}
+ul{border: 100px solid; border-image: url(https://upload.wikimedia.org/wikipedia/en/6/63/Feels_good_man.jpg); width: 40px; }
+h1{background-color: gray;}
+p{color: blue; border: 2px dotted;left: 100px;}
+p.dash{border: 2px dashed;}
+p.maitotuote{border: 4px solid rgb(0, 2, 14);font-style: italic}
+p.muut{opacity: 0.1;}
+.muut{background-color: rgb(251, 255, 0);}
+p.maitotuotteet{border: 4px  solid black; font-style: italic; }
