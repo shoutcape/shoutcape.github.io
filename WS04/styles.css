@@ -1,0 +1,6 @@
+body{background-color: black;}
+h1 {font-size: 20px; color: white;}
+p {font-size: 12px; color: lightgray;}
+div{border: dotted 2px;width: 100px; height: 100px;color: white; }
+ol{list-style: upper-alpha; color: white;}
+ul{list-style: square; color: white;}
