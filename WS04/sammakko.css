@@ -1,8 +1,6 @@
 body{background: lightgreen}
 figcaption{background-color: green; border: 3px solid; padding: 3%; text-align:center;}
-img{width: 300; height: 250;}
-h1{background-color: black; color: rgb(255, 0, 0); border-radius: 10px; border: 2px solid;padding: 20px;width: 350;}
-p{background-color: rgb(56, 148, 2);  border-radius: 2cm;color: rgb(255, 255, 255);text-align: center; width: 700px;}
+h1{background-color: black; color: rgb(255, 0, 0); border-radius: 10px; border: 2px solid;padding: 20px; width: 350px;}
 .sammakot{float: left}
-.teksti{float:left}
-.tilanne{float:left; padding: 10px; text-align: right;}
+.sammakotapustaja{float: left; text-align;}
+p{width: 700px ; vertical-align: auto;}
