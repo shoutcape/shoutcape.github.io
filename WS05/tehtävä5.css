@@ -1,8 +1,7 @@
 body{
     background-color: rgb(255, 248, 170);
-    clear
+  }
 
-}
 header{
     border:2px
      solid;
@@ -12,7 +11,7 @@ header{
 a{
     text-decoration: none;
     font-size: large;
-    color: red;
+    color: rgb(146, 71, 0);
     padding-inline: 20%;
     border: solid;
 }
