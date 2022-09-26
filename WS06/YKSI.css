@@ -12,16 +12,18 @@ h1{
     text-align: center;
 }
 
-nav{
-       
-}
 a{
-    float: left;
-    margin: -1px;
+    margin: 20px;
     text-decoration: none;
     color: black;
     background-color: rgb(94, 255, 247);
     padding: 10px;
     border: 1px solid;
     border-radius: 10px;
+}
+
+.valikko{
+    position: absolute;
+    width: 100%;
+    text-align: center;
 }
