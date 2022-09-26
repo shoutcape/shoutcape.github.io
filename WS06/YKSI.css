@@ -1,20 +1,64 @@
 body{
-    background-color: gray;
+    background-color: rgb(173, 173, 173);
+    margin: 10%;
 }
 
 header{
-    background-color: aliceblue;
+    background-color: rgb(255, 255, 255);
     line-height: 2cm;
-}
-
-h1{
     text-align: center;
+    border: 2px solid;
+    border-bottom: -2px solid;
 }
 
 a{
+    
     text-decoration: none;
     color: black;
-    background-color: rgb(98, 102, 102);
+    background-color: rgb(220, 252, 252);
     border: 1px solid;
-    padding: 2px;  
+    padding: 3px;
+    border-radius: 5px;
+   
+        
+}
+
+nav.topnav{
+    float: left;
+    border: 2px solid;
+    border-top: 2px ;
+    width: fit-content;
+    height: 202px;
+}
+
+li{
+    text-align: center;
+    list-style: none;
+    padding: 5px;
+    
+}
+
+article{
+    background-color: rgba(7, 5, 5, 0.144);
+    overflow: hidden;
+    border: 2px solid;
+    border-left: 2px; 
+    border-top: 2px;
+    height: 100px;
+}
+
+section{
+    border: 2px solid;
+    border-top: 2px;
+    border-left: 2px;
+    background-color: aliceblue;
+    overflow: hidden;
+    height: 100px;
+}
+
+footer{
+    text-align: center;
+    background-color: azure;
+    border: 2px solid;
+    border-top: 2px;
 }
