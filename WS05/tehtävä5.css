@@ -3,7 +3,47 @@ body{
     clear
 
 }
+header{
+    border:2px
+     solid;
+    text-align: center
+}
+
+a{
+    text-decoration: none;
+    font-size: large;
+    color: red;
+    padding-inline: 20%;
+    border: solid;
+}
 
 nav{
-    background-color: black;
+    margin-top: -2px;
+    border: 2px solid;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+}
+
+aside{
+    margin-top: -2px;
+   text-align: center;
+    background-color: rgb(66, 64, 64);
+    padding: 20px;
+    border: 2px solid;
+}
+
+section{
+
+    margin-top: -2px;
+    background-color: lightblue;
+    padding-bottom: 40px;
+    border: 2px solid;
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+    background-color: aliceblue;
+    border: 2px solid;
+    margin-top: -2px;
 }
