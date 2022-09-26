@@ -1,6 +1,39 @@
-body{background: lightgreen}
-figcaption{background-color: green; border: 3px solid; padding: 3%; text-align:center;}
-h1{background-color: black; color: rgb(255, 0, 0); border-radius: 10px; border: 2px solid;padding: 20px; width: 350px;}
-.sammakot{float: left}
-.sammakotapustaja{float: left; text-align;}
-p{width: 700px ; vertical-align: auto;}
+body{
+    background: lightgreen
+}
+img{
+    border: 2px solid;
+    margin-left: -2px;
+    margin-top: -2px;
+    margin-right: -2px;
+}
+h1{
+    background-color: black; 
+    color: rgb(255, 0, 0); 
+    border-radius: 10px; 
+    border: 2px solid;
+    padding: 20px; 
+    width: 350px;
+}
+div.sammakko{
+    float: left;
+    text-align: center;
+    border: 2px solid;
+    margin: 2px;
+    display: block;
+}
+p.aihe{
+    clear: left;
+    font-family:sans-serif ;
+    padding: 20px;
+    background-color: rgb(67, 250, 30);
+    border-radius: 20px;
+    border: solid;
+    width: 300px;
+}
+.progress{
+    clear: left;
+    text-align:left;
+    margin-left: 230px;
+}
+
