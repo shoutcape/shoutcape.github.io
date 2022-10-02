@@ -1,34 +1,39 @@
 body{
     background-color: rgb(173, 173, 173);
-    margin: 10%;
+    margin: 20%;
 }
 
 header{
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(218, 218, 218);
     line-height: 2cm;
     text-align: center;
     border: 2px solid;
-    border-bottom: -2px solid;
 }
 
 a{
-    
     text-decoration: none;
-    color: black;
-    background-color: rgb(220, 252, 252);
+    color: rgb(0, 0, 0);
+    background-color: rgb(220, 252, 252, 1);
     border: 1px solid;
     padding: 3px;
     border-radius: 5px;
+    
    
         
+}
+a:hover{
+    color: rgb(0, 0, 0);
+    font-size: large;
+    border: 4px solid;
 }
 
 nav.topnav{
     float: left;
     border: 2px solid;
-    border-top: 2px ;
-    width: fit-content;
+    border-top: 2px;
     height: 202px;
+    width: 80px;
+    background-color: aliceblue;
 }
 
 li{
@@ -39,7 +44,7 @@ li{
 }
 
 article{
-    background-color: rgba(7, 5, 5, 0.144);
+    background-color: rgb(167, 165, 165);
     overflow: hidden;
     border: 2px solid;
     border-left: 2px; 
@@ -51,14 +56,43 @@ section{
     border: 2px solid;
     border-top: 2px;
     border-left: 2px;
-    background-color: aliceblue;
+    background-color: rgba(240, 248, 255, 1);
     overflow: hidden;
     height: 100px;
 }
 
 footer{
     text-align: center;
-    background-color: azure;
+    background-color: rgba(240, 255, 255, 1);
     border: 2px solid;
     border-top: 2px;
+}
+
+aside{
+    text-align: center;
+    background-color: rgba(128, 128, 128, 1);
+    margin-top: -2px;
+    border: 2px solid;
+    height: 20px;
+}
+
+.sandels{
+background-image: url(https://upload.wikimedia.org/wikipedia/commons/b/bb/Sandels_Kustaanmiekassa.jpg);
+background-position: 50%;
+background-size:cover;
+background-repeat:no-repeat;
+
+}
+.sandelsheader{
+    background-image: url(https://upload.wikimedia.org/wikipedia/fi/e/eb/Sandels-logo.png?20171130165347);
+    background-size: contain;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    text-indent: -9999px;
+    
+}
+.Karhu{
+    background-image: url(https://www.karhu.fi/wp-content/uploads/2016/05/logo.png);
+    background-color: black;
+    background-size: 300px;
 }
