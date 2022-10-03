@@ -231,3 +231,7 @@ header.rainbowheader{
     border-top:none;
     clear: left;
 }
+
+ol{
+    padding: 2px;
+}
