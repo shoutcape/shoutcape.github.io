@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    color: white;
+    background-color: gray;
+}
+
+header{
+    background-color: black;
+    text-align: center;
+    height: 50px;
+    padding: 15px;
+}
+
+nav{
+    background-color: blue;    
+    border: solid;
+    height: 50px;
+    width: 100%;
+}
+nav ul{
+    float: left;
+    text-align: center;
+ vv}
+
+article{
+    background-color: rgb(120, 166, 206);
+    height:10rem ;
+
+}
+
+aside{
+    width: fit-content;
+    height: 10rem;
+    background-color: aquamarine;
+    float:left;
+    clear:left;
+}
+
+aside ul{
+    list-style: none;
+    color: black;
+    text-align: left;
+    padding: 10px;
+}
+
+section{
+    background-color: blueviolet;
+    clear: both;
+}
+
+footer{
+    background-color: bisque;
+}
