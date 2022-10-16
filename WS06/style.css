@@ -3,54 +3,56 @@
 }
 
 body{
-    color: white;
     background-color: gray;
+    margin: 20%;
+    width: 700px;
 }
 
 header{
     background-color: black;
     text-align: center;
-    height: 50px;
     padding: 15px;
+    font-size: 40;
+    font-weight: bold;
+    color: white;
 }
 
 nav{
-    background-color: blue;    
-    border: solid;
-    height: 50px;
+    background-color: rgb(51,51,51);    
+    height: fit-content;
     width: 100%;
-}
-nav ul{
-    float: left;
     text-align: center;
- vv}
-
-article{
-    background-color: rgb(120, 166, 206);
-    height:10rem ;
-
+    color: white;
 }
 
 aside{
     width: fit-content;
-    height: 10rem;
-    background-color: aquamarine;
+    background-color: #eeeeee;
     float:left;
-    clear:left;
+    width: 10%;
+    height: 100%;
+    overflow: hidden;
 }
 
 aside ul{
     list-style: none;
     color: black;
     text-align: left;
-    padding: 10px;
+    width: 100%;
+    padding: 0px;
+    
 }
 
 section{
-    background-color: blueviolet;
-    clear: both;
+    background-color: rgb(120, 166, 206);
+    background-color: #ffffff;
+    padding: 1px;
+    height: 100%;
+    overflow: hidden;
 }
 
 footer{
-    background-color: bisque;
+    background-color: black;
+    color: white;
+    text-align: center;
 }
