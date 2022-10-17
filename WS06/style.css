@@ -1,5 +1,6 @@
 html{
-    height: 30%;
+    height: 400px;
+    width: 1700px;
 }
 
 body{
@@ -20,10 +21,20 @@ header{
 
 nav{
     background-color: rgb(51,51,51);    
-    height: fit-content;
+    height:9%;
     width: 100%;
     text-align: center;
     color: white;
+    font-size: 18px;
+    padding-top: 10px;
+}
+nav a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 20px;
+}
+nav a:hover{
+    color: red;
 }
 
 aside{
@@ -41,7 +52,19 @@ aside ul{
     color: black;
     text-align: left;
     width: 100%;
-    padding: 2px;
+    padding: 10px;
+}
+a.list{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    border: 5px solid black;
+    line-height: 35px;
+    border-radius: 10px;
+}
+a.list:hover{
+    color: rgb(255, 8, 0);
+    border: 5px solid red;
 }
 
 section{
@@ -57,4 +80,32 @@ footer{
     background-color: black;
     color: white;
     text-align: center;
+}
+
+.bodylondon{
+    background-image: url(http://t0.gstatic.com/licensed-image?q=tbn:ANd9GcTF9OtLxnbxSpLFzyhzXERKiAbnHlG25WfRzxRTNcRiTk0lHvsOXNKH9KNAOvTWi_sS);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.bodyparis{
+    background-image: url(https://images8.alphacoders.com/431/thumb-1920-431202.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.bodytokyo{
+    background-image: url(https://theplanetd.com/images/Best-Things-to-do-in-Tokyo-Japan-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1{
+    font-size: 30px;
+}
+p{
+    font-size: 20px;
 }
