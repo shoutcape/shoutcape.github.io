@@ -1,56 +1,111 @@
-*{
-    box-sizing: border-box;
+html{
+    height: 400px;
+    width: 1700px;
 }
 
 body{
-    color: white;
     background-color: gray;
+    margin: 20%;
+    width: 50%;
+    height: 100%;
 }
 
 header{
     background-color: black;
     text-align: center;
-    height: 50px;
     padding: 15px;
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
 }
 
 nav{
-    background-color: blue;    
-    border: solid;
-    height: 50px;
+    background-color: rgb(51,51,51);    
+    height:9%;
     width: 100%;
-}
-nav ul{
-    float: left;
     text-align: center;
- vv}
-
-article{
-    background-color: rgb(120, 166, 206);
-    height:10rem ;
-
+    color: white;
+    font-size: 18px;
+    padding-top: 10px;
+}
+nav a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 20px;
+}
+nav a:hover{
+    color: red;
 }
 
 aside{
     width: fit-content;
-    height: 10rem;
-    background-color: aquamarine;
-    float:left;
-    clear:left;
+    background-color: #eeeeee;
+    width: 10%;
+    height: 100%;
+    overflow: hidden;
+    float: left;
+    padding: 1px;
 }
 
 aside ul{
     list-style: none;
     color: black;
     text-align: left;
+    width: 100%;
     padding: 10px;
+}
+a.list{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    border: 5px solid black;
+    line-height: 35px;
+    border-radius: 10px;
+}
+a.list:hover{
+    color: rgb(255, 8, 0);
+    border: 5px solid red;
 }
 
 section{
-    background-color: blueviolet;
-    clear: both;
+    background-color: rgb(120, 166, 206);
+    background-color: #ffffff;
+    padding: 1px;
+    height: 100%;
+    overflow: hidden;
+    
 }
 
 footer{
-    background-color: bisque;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.bodylondon{
+    background-image: url(http://t0.gstatic.com/licensed-image?q=tbn:ANd9GcTF9OtLxnbxSpLFzyhzXERKiAbnHlG25WfRzxRTNcRiTk0lHvsOXNKH9KNAOvTWi_sS);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.bodyparis{
+    background-image: url(https://images8.alphacoders.com/431/thumb-1920-431202.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.bodytokyo{
+    background-image: url(https://theplanetd.com/images/Best-Things-to-do-in-Tokyo-Japan-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1{
+    font-size: 30px;
+}
+p{
+    font-size: 20px;
 }
