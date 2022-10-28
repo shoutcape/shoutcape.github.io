@@ -1,3 +1,7 @@
+html{
+    width: 200px;
+}
+
 body{
     background-color: gray;
 }
@@ -10,7 +14,8 @@ main{
     height: 60%;
     background-color: white;
     border-radius: 30px;
-    border:5px solid black
+    border:5px solid black;
+    overflow: hidden;
 }
 
 nav{
@@ -26,27 +31,24 @@ nav{
 
 footer{
     position: absolute;
-    bottom: 0px;
+    bottom: 0%;
     width: 100%;
     background-color: black;
     color: white;
     font-weight: 600;
-    font-size: 30px;
+    font-size: 200%;
     text-align: center;
-    height: 50px;
+    height: 5%;
     border-bottom-left-radius:20px ;
     border-bottom-right-radius:20px ;
 }
 
 .col{
     height: 200px;
-    margin-top: 10%;
+    margin-top: 5%;
+    padding: 20px;
 }
 img{
-    height:130%
-}
-
-:hover{
-    
-    background-color: blue;
+    height:120%;
+    width: 40%;
 }
