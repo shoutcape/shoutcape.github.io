@@ -58,15 +58,16 @@ img{
 }
 
 img:hover{
-    background-color: none;
     animation-name: example;
     animation-duration: 500ms;
     animation-fill-mode: forwards;
+    border-radius: 20px;
 }
 @keyframes example{
-    from{background-color:  none;}
     from{width: 60%;}
     to{width:70%}
     from{height: 180%;}
     to{height:190%}
+    from{border: 2px solid white;}
+    to{border: 6px solid black;}
 }
