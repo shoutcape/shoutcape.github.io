@@ -1,0 +1,19 @@
+body{
+    background-color: gray;
+}
+
+main{
+    height: fit-content;
+    background-color: white;
+}
+
+header{
+    text-align: center;
+}
+img{
+    height: 600px;
+    background-color: black;
+}
+.info{
+    background-color: rgb(242, 247, 199);
+}
