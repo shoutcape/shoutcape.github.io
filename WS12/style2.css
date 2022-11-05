@@ -2,6 +2,8 @@
 
 body{
     background-color: gray;
+    overflow: hidden;
+    font-family:sans-serif;
 }
 
 main{
@@ -25,21 +27,24 @@ img{
     margin: 10px;
     padding-bottom: 40px;
 }
-
-li{
-    list-style: none;
-    text-align: left;
-    margin: 1px;
+ul{
     padding: 0px;
 }
 
-.resepti{   
+li{
+    text-align: left;
+    list-style: none;
+    padding: 5px ;
+    font-size: large;
+    font-weight: 600;
+}
+
+.reseptilong{   
     width: fit-content;
     border: 3px solid;
     padding: 10px;
-    background-color: gray;
-    margin-left: 2px;
-
+    background-color: rgba(167, 121, 121, 0.836);
+    margin-right: 40px;
 }
 
 .longislandkuva{
@@ -48,3 +53,11 @@ li{
     margin-top: 10px;
     margin-bottom: 10px;
 }
+
+.valmistus{
+    text-align: left;
+    padding: 10px;
+    background-color: aliceblue;
+    margin-left: 0px;
+}
+
