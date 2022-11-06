@@ -1,18 +1,31 @@
-/* THIS IS FOR THE COCKTAILS.HTML */
-/* Long island start */
-body{
-    background-color: gray;
+
+
+    /* THIS IS FOR THE COCKTAILS.HTML */
+
+html{
+    width: 100%;
+    height: 100%;
+}
+
+    body{
+    background-color: rgb(94, 94, 94);
     font-family:sans-serif;
 }
 
 main{
-    height: fit-content;
+    height: auto;
     background: rgb(36,22,0);
+    overflow: scroll;
+}
+
+.navbar{
+    background-color: #bdbdbd;
+    color: white;
 }
 
 .longisland{
     border: solid 10px;
-    background: linear-gradient(90deg, rgba(36,22,0,1) 30%, rgba(171,110,6,1) 65%, rgba(224,255,0,1) 100%);
+    background: linear-gradient(90deg, #92CCFE 30%, #F1D665 65%, #334314 100%);
 }
 
 header{
@@ -33,15 +46,43 @@ li{
     text-align: left;
     list-style: none;
     padding: 5px ;
-    font-size: large;
+    font-size: 20px;
     font-weight: 600;
 }
 
+p{
+    color: white;
+    text-shadow: 1px 2px 2px rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+h4{
+    color: white;
+    text-shadow: 1px 2px 2px black;
+    font-size: 30px;
+}
+    /* THIS IS FOR THE COCKTAILS.HTML END */
+
+
+
+    /* Long island start */
+
+.longisland{
+    border: solid 10px;
+    background: linear-gradient(90deg, #92CCFE 30%, #F1D665 65%, #334314 100%);
+}
+    
+
+.recipelist{
+    color: white;
+    text-shadow: 1px 2px 2px black;
+}
+
 .reseptilong{   
-    width: fit-content;
+    width: auto;
     border: 3px solid;
     padding: 10px;
-    background-color: rgba(167, 121, 121, 0.836);
+    background-color: rgba(251, 255, 0, 0.2);
     margin-right: 40px;
 }
 
@@ -56,8 +97,9 @@ li{
 .valmistus{
     text-align: left;
     padding: 10px;
-    background-color: aliceblue;
+    background-color: rgba(251, 255, 0, 0.2);
     margin-left: 0px;
+    border: 3px solid;
 }
     /* Long island end */
 
@@ -75,4 +117,86 @@ li{
 .Moscowmule{
     border: solid 10px;
     background: rgb(136,116,83);
-    background: linear-gradient(to right, rgb(19, 19, 19) 0%, rgba(202, 248, 150, 0.418) 47%, rgba(209, 176, 27, 0.993) 100%);}
+    background: linear-gradient(to right, #9FBAC4 0%, #B4663A 47%, #380A00 100%);}
+
+.reseptimule{
+    background-color:rgba(105, 105, 105, 0.26);
+    border: solid 3px;
+    padding: 10px;
+    margin-right: 40px;
+    width: auto;
+}
+
+.valmistusmule{
+    background-color:rgba(105, 105, 105, 0.26);
+    border: solid 3px;
+    text-align: left;
+    padding: 10px;
+    font-weight: 600;
+}
+
+    /* Moscowmule End */
+
+    /* Valkovenäläinen Start */
+
+.valkovenäläinenkuva{
+    width: 450px;
+    border-radius: 30px ;
+    border: 4px solid rgb(83, 83, 83);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.Valkovenäläinen{
+    border: solid 10px;
+    background: rgb(136,116,83);
+    background: linear-gradient(to right, #3D3943 0%, #746452 47%,#0C0B09 70%, #0E0F18 100%);}
+
+.reseptivenäläinen{
+    background-color:rgba(105, 105, 105, 0.26);
+    border: solid 3px;
+    padding: 10px;
+    margin-right: 40px;
+    width: auto;
+}
+
+.valmistusvenäläinen{
+    background-color:rgba(105, 105, 105, 0.26);
+    border: solid 3px;
+    text-align: left;
+    padding: 10px;
+    font-weight: 600;
+}
+
+/* VALKOVENÄLÄLINEN END */
+
+/* PINACOLADA START */
+
+.Pinacoladakuva{
+    width: 450px;
+    border-radius: 30px ;
+    border: 4px solid rgb(83, 83, 83);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.Pinacolada{
+    border: solid 10px;
+    background: rgb(136,116,83);
+    background: linear-gradient(to right, #94C3EE 0%, #D0A100 47%, #F6E1C3 100%);}
+
+.resepticolada{
+    background-color:rgba(105, 105, 105, 0.3);
+    border: solid 3px;
+    padding: 10px;
+    margin-right: 40px;
+    width: auto;
+}
+
+.valmistuscolada{
+    background-color:rgba(105, 105, 105, 0.3);
+    border: solid 3px;
+    text-align: left;
+    padding: 10px;
+    font-weight: 600;
+}
