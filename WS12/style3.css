@@ -1,0 +1,59 @@
+html{
+    min-width: 1000px;
+}
+
+
+body{
+background-color: rgb(94, 94, 94);
+font-family:sans-serif;
+}
+
+main{
+background: rgb(255, 255, 255);
+}
+.kuva{
+margin-right: 0px;
+}
+
+.navbar{
+background-color: #bdbdbd;
+color: white;
+}
+
+div.col.kuva{
+max-width: 500px;
+}
+
+header{
+text-align: center;
+}
+
+.info{
+margin: 10px;
+padding-bottom: 40px;
+max-width: 500px;
+min-width: 300px;
+}
+ul{
+padding: 0px;
+}
+
+li{
+text-align: left;
+list-style: none;
+padding: 5px ;
+font-size: 20px;
+font-weight: 600;
+}
+
+p{
+color: white;
+text-shadow: 1px 2px 2px rgb(0, 0, 0);
+font-size: 20px;
+}
+
+h4{
+color: white;
+text-shadow: 1px 2px 2px black;
+font-size: 30px;
+}
