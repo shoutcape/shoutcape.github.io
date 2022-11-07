@@ -12,6 +12,7 @@
 }
 
 main{
+    position: static;
     background: rgb(36,22,0);
     overflow: scroll;
 }
