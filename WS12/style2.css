@@ -7,12 +7,13 @@
     body{
     background-color: rgb(94, 94, 94);
     font-family:sans-serif;
-    width: 1000px;
 }
 
 main{
     background: rgb(36,22,0);
-    width: 1000px;
+}
+.kuva{
+    margin-right: 0px;
 }
 
 .navbar{
@@ -20,9 +21,8 @@ main{
     color: white;
 }
 
-.longisland{
-    border: solid 10px;
-    background: linear-gradient(90deg, #92CCFE 30%, #F1D665 65%, #334314 100%);
+div.col.kuva{
+    max-width: 500px;
 }
 
 header{
@@ -32,6 +32,7 @@ header{
 .info{
     margin: 10px;
     padding-bottom: 40px;
+    max-width: 500px;
 }
 ul{
     padding: 0px;
