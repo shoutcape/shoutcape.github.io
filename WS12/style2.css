@@ -7,11 +7,12 @@
     body{
     background-color: rgb(94, 94, 94);
     font-family:sans-serif;
-    width: auto;
+    width: 1000px;
 }
 
 main{
     background: rgb(36,22,0);
+    width: 1000px;
 }
 
 .navbar{
