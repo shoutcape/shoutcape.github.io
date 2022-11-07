@@ -9,10 +9,11 @@ font-family:sans-serif;
 }
 
 main{
-background: rgb(255, 255, 255);
+background: rgb(124, 122, 122);
 }
 .kuva{
 margin-right: 0px;
+
 }
 
 .navbar{
@@ -20,7 +21,7 @@ background-color: #bdbdbd;
 color: white;
 }
 
-div.col.kuva{
+.col{
 max-width: 500px;
 }
 
@@ -47,13 +48,44 @@ font-weight: 600;
 }
 
 p{
-color: white;
-text-shadow: 1px 2px 2px rgb(0, 0, 0);
 font-size: 20px;
 }
 
 h4{
-color: white;
-text-shadow: 1px 2px 2px black;
 font-size: 30px;
 }
+
+img{
+    max-width: 500px;
+}
+
+    /* 1 START */
+
+.Sandels{
+    border: 10px solid ;
+    background:linear-gradient(90deg, #1A0800 0%, #5B6B7B 20%, #FED186 60%, #8D6E5B 100%);
+    color: #1A0800;
+    text-shadow: 1px 1px 1px white;
+}
+
+.sandelskuva{
+    border: 4px solid silver;
+    border-radius: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 450px;
+}
+
+
+    /* 1 END */
+
+    /* 2 START */
+    /* 2 END */
+    
+    
+    /* 3 START */
+    /* 3 END */
+
+
+    /* 4 START */
+    /* 4 END */
