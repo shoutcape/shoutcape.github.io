@@ -1,7 +1,9 @@
 
 
     /* THIS IS FOR THE COCKTAILS.HTML */
-
+    html{
+        min-width: 1000px;
+    }
 
 
     body{
@@ -11,8 +13,6 @@
 
 main{
     background: rgb(36,22,0);
-    max-width: 100%;
-    width: auto;
 }
 .kuva{
     margin-right: 0px;
@@ -35,6 +35,7 @@ header{
     margin: 10px;
     padding-bottom: 40px;
     max-width: 500px;
+    min-width: 300px;
 }
 ul{
     padding: 0px;
