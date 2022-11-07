@@ -11,6 +11,8 @@
 
 main{
     background: rgb(36,22,0);
+    max-width: 100%;
+    width: auto;
 }
 .kuva{
     margin-right: 0px;
