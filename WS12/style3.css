@@ -121,7 +121,7 @@ img{
     /* 3 START */
     .ALeCoq{
         border: 10px solid #1A0800;
-        background:linear-gradient(90deg,#000000 30%, #B40001 50%, #D5D0CC 80%, black 100%);
+        background:linear-gradient(90deg,#000000 20%, #B40001 50%, #D5D0CC 90%, black 100%);
         color: rgb(230, 230, 230);
         text-shadow: 1px 1px 1px black;
     }
