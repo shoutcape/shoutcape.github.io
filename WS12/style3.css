@@ -29,6 +29,11 @@ padding-left: 20px;
     font-family: Impact;
 }
 
+.navbar-brand:hover{
+    font-size: 40px;
+    font-family: Impact;
+}
+
 .nav-item{
     font-family: Leelawadee;
     font-size: 2rem;
