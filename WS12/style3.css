@@ -5,7 +5,7 @@ html{
 
 body{
 background-color: rgb(94, 94, 94);
-font-family:sans-serif;
+font-family:Bahnschrift;
 }
 
 main{
@@ -13,12 +13,27 @@ background: rgb(124, 122, 122);
 }
 .kuva{
 margin-right: 0px;
-
+margin-left: 0px;
 }
 
 .navbar{
-background-color: #bdbdbd;
+background-color: #9b9b9b;
 color: white;
+padding-left: 20px;
+}
+
+.navbar-brand{
+    font-size: 40px;
+    font-family: Impact;
+}
+
+.nav-item{
+    font-family: Leelawadee;
+    font-size: 2rem;
+    margin-inline: 1rem;
+    padding-inline: 1rem;
+    border: solid ;
+    border-radius: 10px;
 }
 
 .col{
@@ -32,8 +47,8 @@ text-align: center;
 .info{
 margin: 10px;
 padding-bottom: 40px;
-max-width: 500px;
-min-width: 300px;
+max-width: 900px;
+min-width: 400px;
 }
 
 ul{
@@ -53,6 +68,10 @@ font-size: 20px;
 }
 
 h4{
+font-size: 50px;
+}
+
+h3{
 font-size: 30px;
 }
 

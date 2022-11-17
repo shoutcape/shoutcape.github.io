@@ -8,7 +8,7 @@
 
     body{
     background-color: rgb(94, 94, 94);
-    font-family:sans-serif;
+    font-family:Bahnschrift;
 }
 
 main{
@@ -19,9 +19,24 @@ main{
 }
 
 .navbar{
-    background-color: #bdbdbd;
+    background-color: #9b9b9b;
     color: white;
-}
+    padding-left: 20px;
+    }
+    
+    .navbar-brand{
+        font-size: 40px;
+        font-family: Impact;
+    }
+    
+    .nav-item{
+        font-family: Leelawadee;
+        font-size: 2rem;
+        margin-inline: 1rem;
+        padding-inline: 1rem;
+        border: solid ;
+        border-radius: 10px;
+    }
 
 div.col.kuva{
     max-width: 500px;
@@ -56,6 +71,12 @@ p{
 }
 
 h4{
+    color: white;
+    text-shadow: 1px 2px 2px black;
+    font-size: 50px;
+}
+
+h3{
     color: white;
     text-shadow: 1px 2px 2px black;
     font-size: 30px;
