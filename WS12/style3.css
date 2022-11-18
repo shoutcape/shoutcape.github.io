@@ -9,7 +9,8 @@ font-family:Bahnschrift;
 }
 
 main{
-background: rgb(124, 122, 122);
+    background: rgb(124, 122, 122);
+    width: auto;
 }
 .kuva{
 margin-right: 0px;

@@ -81,8 +81,8 @@ text-align: center;
 .info{
 margin: 10px;
 padding-bottom: 40px;
-min-width: 600px;
 max-width: 900px;
+min-width: 400px;
 }
 
 ul{
@@ -136,13 +136,13 @@ img{
 
     /* 1 START */
 
-.Sandels{
+.Ruffino{
     border: 10px solid ;
     background:linear-gradient(90deg, #1A0800 0%, #5B6B7B 20%, #FED186 60%, #8D6E5B 100%);
     color: #1A0800;
 }
 
-.sandelskuva{
+.Ruffinokuva{
     border: 4px solid silver;
     border-radius: 30px;
     margin-top: 10px;
