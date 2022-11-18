@@ -81,8 +81,8 @@ text-align: center;
 .info{
 margin: 10px;
 padding-bottom: 40px;
+min-width: 600px;
 max-width: 900px;
-min-width: 400px;
 }
 
 ul{

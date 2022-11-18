@@ -63,6 +63,10 @@ main{
         text-decoration: none;
         color: white;
     }
+
+    .active{
+        background-color: white;
+    }
     
     /* NAVBAR */
     /* NAVBAR */
