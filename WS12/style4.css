@@ -154,14 +154,14 @@ img{
     /* 1 END */
 
     /* 2 START */
-    .Karhu{
+    .Cristal{
         border: 10px solid #1A0800;
         background:linear-gradient(90deg,#0A0300 0%, #4B1206 60%, #070000 100%);
         color: #ffffff;
         text-shadow: 1px 1px 1px rgb(3, 3, 3);
     }
 
-    .karhukuva{
+    .Cristalkuva{
         border: 4px solid rgb(58, 56, 43);
         border-radius: 30px;
         margin-top: 10px;
@@ -172,14 +172,14 @@ img{
     
 
     /* 3 START */
-    .ALeCoq{
+    .Bollinger{
         border: 10px solid #1A0800;
         background:linear-gradient(90deg,#000000 20%, #B40001 50%, #D5D0CC 90%, black 100%);
         color: rgb(230, 230, 230);
         text-shadow: 1px 1px 1px black;
     }
 
-    .ALeCoqkuva{
+    .Bollingerkuva{
         border: 4px solid rgb(255, 242, 242);
         border-radius: 30px;
         margin-top: 10px;
