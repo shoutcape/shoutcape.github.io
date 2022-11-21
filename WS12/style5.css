@@ -1,0 +1,209 @@
+html{
+    min-width: 1240px;
+}
+
+
+body{
+background-color: rgb(94, 94, 94);
+font-family:Bahnschrift;
+}
+
+main{
+background: rgb(124, 122, 122);
+}
+.kuva{
+margin-right: 0px;
+margin-left: 0px;
+}
+/* NAVBAR */
+/* NAVBAR */
+/* NAVBAR */
+.navbar{
+background-color: #9b9b9b;
+color: white;
+padding-left: 20px;
+}
+
+
+
+.navbar-brand{
+    font-size: 40px;
+    font-family: Impact;
+    border: solid;
+    padding-inline: 20px;
+    border-radius: 10px;
+   
+}
+
+.navbar-brand:hover{
+    background-color: white;
+}
+
+.nav-item{
+    font-family: Leelawadee;
+    font-size: 2rem;
+    margin-inline: 1rem;
+    padding-inline: 1rem;
+    border: solid black;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+}
+
+
+
+.nav-item:hover{
+    background-color: white;
+}
+
+
+
+.nav-link{
+    text-decoration: none;
+    color: white;
+}
+
+.active{
+    background-color: white;
+}
+
+/* NAVBAR */
+/* NAVBAR */
+/* NAVBAR */
+
+.col{
+max-width: 500px;
+}
+
+header{
+text-align: center;
+}
+
+.info{
+margin: 10px;
+padding-bottom: 40px;
+max-width: 900px;
+min-width: 400px;
+}
+
+ul{
+padding: 0px;
+}
+
+li{
+text-align: left;
+list-style: none;
+padding: 5px ;
+font-size: 20px;
+font-weight: 600;
+}
+
+p{
+font-size: 20px;
+}
+
+h4{
+font-size: 50px;
+}
+
+h3{
+font-size: 30px;
+}
+
+img{
+    max-width: 500px;
+}
+
+.ul{
+    background-color: #070000;
+}
+
+.Tietoja{
+    text-align: left;
+    padding: 10px;
+    background-color: rgba(15, 15, 15, 0.2);
+    margin-left: 0px;
+    border: 3px solid;
+    margin-right:20px;
+}
+
+.Kuvaus{
+    text-align: left;
+    padding: 10px;
+    background-color: rgba(15, 15, 15, 0.2);
+    margin-left: 0px;
+    border: 3px solid;
+}
+
+    /* 1 START */
+
+.Koskenkorva{
+    border: 10px solid ;
+    background:linear-gradient(90deg, #2D3800 0%, #BB9065 20%, #E6D2B2 40%, #B5998C 100%);
+    color: #1A0800;
+}
+
+.Koskenkorvakuva{
+    border: 4px solid rgb(102, 25, 25);
+    border-radius: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 450px;
+}
+
+
+    /* 1 END */
+
+    /* 2 START */
+    .Jackdaniels{
+        border: 10px solid #1A0800;
+        background:linear-gradient(90deg,#1A1708 0%, #A36B18 30%, #ADB2B6 70%, #82806A 100%);
+        color: #000000;
+    }
+
+    .Jackdanielskuva{
+        border: 4px solid rgb(187, 171, 70);
+        border-radius: 30px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 450px;
+    }
+    /* 2 END */
+    
+
+    /* 3 START */
+    .Bollinger{
+        border: 10px solid #1A0800;
+        background:linear-gradient(90deg,#BFBFBF 0%, #838071 50%, #436205 80%, #C6C6C6 100%);
+        color: rgb(230, 230, 230);
+        text-shadow: 1px 1px 1px black;
+    }
+
+    .Bollingerkuva{
+        border: 4px solid #B67815;
+        border-radius: 30px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 450px;
+        height:740px;
+    }
+
+    /* 3 END */
+
+
+    /* 4 START */
+    .Crimes{
+        border: 10px solid #1A0800;
+        background:linear-gradient(90deg,#460002 30%, #E50C05 70%, #460002 85%, black 100%);
+        color: rgb(255, 255, 255);
+        text-shadow: 1px 1px 1px black;
+
+    }
+
+    .Crimeskuva {
+        border: 4px solid #8F7930;
+        border-radius: 30px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 450px;
+    }
+    /* 4 END */
