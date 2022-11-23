@@ -138,7 +138,7 @@ img{
 
 .Koskenkorva{
     border: 10px solid ;
-    background:linear-gradient(90deg, #2D3800 0%, #BB9065 20%, #E6D2B2 40%, #B5998C 100%);
+    background:linear-gradient(90deg, #947D4E 0%, #E2D9C9 80%, #56493C 100%);
     color: #1A0800;
 }
 
@@ -156,12 +156,12 @@ img{
     /* 2 START */
     .Jackdaniels{
         border: 10px solid #1A0800;
-        background:linear-gradient(90deg,#1A1708 0%, #A36B18 30%, #ADB2B6 70%, #82806A 100%);
-        color: #000000;
+        background:linear-gradient(90deg,#010101 0%, #85827D 30%, #504E4F 70%);
+        color: #ffffff;
     }
 
     .Jackdanielskuva{
-        border: 4px solid rgb(187, 171, 70);
+        border: 4px solid #813C00;
         border-radius: 30px;
         margin-top: 10px;
         margin-bottom: 10px;
