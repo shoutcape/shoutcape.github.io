@@ -2,7 +2,7 @@
 <html lang="fi">
     <head>
         <meta charset="utf-8">
-        <meta name="viewport" initial-scale=1.0 content="width=100%">
+        <meta name="viewport" content="width=100%">
         <title>Päävalikko</title>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
         <link rel="stylesheet" href="style.css">
@@ -106,7 +106,7 @@
 
     <!-- Example Code -->
     <div class="row">
-    <div class="col-3 me-2 g-1 m-5 card fade show" role="card" aria-live="assertive" aria-atomic="true">
+    <div class="col-3 me-2 g-1 m-5 card fade show" aria-live="assertive" aria-atomic="true">
       <div class="card-header">
         <svg class="bd-placeholder-img rounded me-2" width="30" height="30" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="green"></rect></svg>
         <strong class="me-auto">Ville Kautiainen</strong>
@@ -117,7 +117,7 @@ Tämä sivusto oli todella avuksi opiskelijatapahtumissa :D</div>
     </div>
 
 
-    <div class="col-2 me-2 g-1 m-5 card fade show" role="card" aria-live="assertive" aria-atomic="true">
+    <div class="col-2 me-2 g-1 m-5 card fade show" aria-live="assertive" aria-atomic="true">
       <div class="card-header">
         <svg class="bd-placeholder-img rounded me-2" width="30" height="30" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#007aff"></rect></svg>
         <strong class="me-auto">Eminem</strong>
@@ -129,7 +129,7 @@ Tämä sivusto oli todella avuksi opiskelijatapahtumissa :D</div>
     </div>
 
 
-    <div class="col-3 me-2 g-1 m-5 card fade show" role="card" aria-live="assertive" aria-atomic="true">
+    <div class="col-3 me-2 g-1 m-5 card fade show" aria-live="assertive" aria-atomic="true">
       <div class="card-header">
         <svg class="bd-placeholder-img rounded me-2" width="30" height="30" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="yellow"></rect></svg>
         <strong class="me-auto">Matti Mattinen</strong>
@@ -139,9 +139,9 @@ Tämä sivusto oli todella avuksi opiskelijatapahtumissa :D</div>
         Huippu upeaa! 
       </div>
     </div>
+    </div>
 
-
-    <div class="col-2 me-2 g-1 m-5 card fade show" role="card" aria-live="assertive" aria-atomic="true">
+    <div class="col-2 me-2 g-1 m-5 card fade show" aria-live="assertive" aria-atomic="true">
       <div class="card-header">
         <svg class="bd-placeholder-img rounded me-2" width="30" height="30" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="red"></rect></svg>
         <strong class="me-auto">Lenni</strong>
@@ -156,12 +156,12 @@ Tämä sivusto oli todella avuksi opiskelijatapahtumissa :D</div>
     <form>
       <div class="form-row container-fluid lomake">
         <div class="form-group col-md-3 g-2">
-          <label for="inputEmail4">Nimi</label>
-          <input type="name" class="form-control" id="text" placeholder="Nimi">
+          <label for="text">Nimi</label>
+          <input type="text" class="form-control" id="text" placeholder="Nimi">
         </div>
         <div class="form-group col-md-3 g-2">
-          <label for="inputPassword4">Palaute</label>
-          <input type="text" class="form-control" id="text" placeholder="Palaute">
+          <label for="text">Palaute</label>
+          <input type="text" class="form-control" id="text1" placeholder="Palaute">
         </div>
         <div class="form-group col-md-1 g-2">
           <label for="inputState">Arvosana 1-5</label>
@@ -174,20 +174,18 @@ Tämä sivusto oli todella avuksi opiskelijatapahtumissa :D</div>
             <option>5</option>
           </select>
         </div>
-
-      <div class="form-group">
-        <div class="form-check">
-          <input class="form-check-input" type="checkbox" id="gridCheck">
-          <label class="form-check-label" for="gridCheck">
-            Olen varma että haluan lähettää palautetta.
-          </label>
+        <div class="form-group">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="gridCheck">
+            <label class="form-check-label" for="gridCheck">
+              Olen varma että haluan lähettää palautetta.
+            </label>
+          </div>
         </div>
+        <button type="submit" class="btn btn-primary">Lähetä</button>
       </div>
-      <button type="submit" class="btn btn-primary">Lähetä</button>
     </form>
-  </div>  
-
-         
+</div>     
             <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
           </main>
       </body>
