@@ -1,5 +1,5 @@
 html{
-    min-width: 1400px;
+    min-width: 1450px;
 }
 
 
@@ -99,7 +99,7 @@ font-weight: 600;
     /* JUOMIEN KÄSIKIRJA */
 
 .otsikko{
-    background-color: #ac5530;
+    background-color: #f1b67e48;
     color: white;
     border-radius: 20px;
     margin-bottom: 20px;
@@ -130,5 +130,21 @@ img{
     padding:0px;
     margin:0px;
     object-fit: cover;
+}
+
+h1{
+    color: white;
+}
+
+.lomake{
+    margin: 20px;
+    color: white;
+}
+
+.arvostelut{
+    background-color: #50463d;
+    background:linear-gradient(190deg,#010101 0%, #85827D 30%, #504E4F 70%);
+    border: solid;
+    height: 880px;
 }
     /* JUOMIEN KÄSIKIRJA */

@@ -44,7 +44,7 @@
           <div class="Päävalikko">
           <div class="container text-center">
             <div class="row otsikko">
-              <div class="otsikko">
+              <div>
               <h1>Juomien käsikirja</h1>
               </div>
             </div>
@@ -52,7 +52,7 @@
             <!-- CAROUSEL -->
             <!-- CAROUSEL -->
             <div class="row">
-              <div class="col karuselli">
+              <div class="col-5 g-0 karuselli">
                 <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                   <div class="carousel-inner">
                     <div class="carousel-item active" data-bs-interval="2000">
@@ -85,9 +85,11 @@
 <!-- CAROUSEL -->
 
 
-              <div class="col">
+              <div class="col-3 g-0 m-4">
                 <div class="info">
-                  <p>Tältä sivulta löydät laajan valikoiman erilaisia drinkkejä, oluita, viinejä ja viinoja. Jos olet alkoholisti niin tämä on varmasti juuri sinulle sopiva sivusto, täältä löytyy nimittäin vitusti alkoholi juomia mm. long island iced tea joka sisältää ihan vitusti viinaa.</p>
+                  <p>Tältä sivulta löydät laajan valikoiman erilaisia drinkkejä, oluita, viinejä ja viinoja. <br> Tein tämän sivun kirjastoidakseni eri juomia ja laajentaakseni tietämystäni mixologiasta ja eri juomien historioista.</p>
+                  <br>
+                  <p>Sivun luomisessa käytin apunani w3schoolssin sivustoja ja googlea :D </p>
                   </div>  
                   </div>
                 </div>
@@ -95,7 +97,7 @@
         </div>
 
 <!-- LOMAKE -->
-        
+<div class="arvostelut">      
 <div class="row">
   <div class="col-fluid text-center">
     <h1>Arvostelut</h1>
@@ -104,21 +106,86 @@
 
     <!-- Example Code -->
     <div class="row">
-    <div class="col-6 me-5 toast fade show" role="alert" aria-live="assertive" aria-atomic="true">
-      <div class="toast-header">
-        <svg class="bd-placeholder-img rounded me-2" width="30" height="30" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#007aff"></rect></svg>
-    
+    <div class="col-3 me-2 g-1 m-5 card fade show" role="card" aria-live="assertive" aria-atomic="true">
+      <div class="card-header">
+        <svg class="bd-placeholder-img rounded me-2" width="30" height="30" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="green"></rect></svg>
         <strong class="me-auto">Ville Kautiainen</strong>
         <small>04.9.2022</small>
-        <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
       </div>
-      <div class="toast-body">
+      <div class="card-body">
 Tämä sivusto oli todella avuksi opiskelijatapahtumissa :D</div>
     </div>
 
-    
+
+    <div class="col-2 me-2 g-1 m-5 card fade show" role="card" aria-live="assertive" aria-atomic="true">
+      <div class="card-header">
+        <svg class="bd-placeholder-img rounded me-2" width="30" height="30" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#007aff"></rect></svg>
+        <strong class="me-auto">Eminem</strong>
+        <small>22.2.2022</small>
+      </div>
+      <div class="card-body">
+        Opin paljon tältä sivustolta.
+      </div>
+    </div>
+
+
+    <div class="col-3 me-2 g-1 m-5 card fade show" role="card" aria-live="assertive" aria-atomic="true">
+      <div class="card-header">
+        <svg class="bd-placeholder-img rounded me-2" width="30" height="30" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="yellow"></rect></svg>
+        <strong class="me-auto">Matti Mattinen</strong>
+        <small>30.11.2022</small>
+      </div>
+      <div class="card-body">
+        Huippu upeaa! 
+      </div>
+    </div>
+
+
+    <div class="col-2 me-2 g-1 m-5 card fade show" role="card" aria-live="assertive" aria-atomic="true">
+      <div class="card-header">
+        <svg class="bd-placeholder-img rounded me-2" width="30" height="30" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="red"></rect></svg>
+        <strong class="me-auto">Lenni</strong>
+        <small>14.8.2022</small>
+      </div>
+      <div class="card-body">Menetin muistini juotuani Long Island Iced Tea:n</div>
+    </div>
+
+
     <!-- End Example Code -->
 
+    <form>
+      <div class="form-row container-fluid lomake">
+        <div class="form-group col-md-3 g-2">
+          <label for="inputEmail4">Nimi</label>
+          <input type="name" class="form-control" id="text" placeholder="Nimi">
+        </div>
+        <div class="form-group col-md-3 g-2">
+          <label for="inputPassword4">Palaute</label>
+          <input type="text" class="form-control" id="text" placeholder="Palaute">
+        </div>
+        <div class="form-group col-md-1 g-2">
+          <label for="inputState">Arvosana 1-5</label>
+          <select id="inputState" class="form-control">
+            <option selected>...</option>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+          </select>
+        </div>
+
+      <div class="form-group">
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" id="gridCheck">
+          <label class="form-check-label" for="gridCheck">
+            Olen varma että haluan lähettää palautetta.
+          </label>
+        </div>
+      </div>
+      <button type="submit" class="btn btn-primary">Lähetä</button>
+    </form>
+  </div>  
 
          
             <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
